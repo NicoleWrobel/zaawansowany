@@ -4,12 +4,15 @@
     
 }
 
-main {
-    display: inline-block ;
-    margin: 8px;
+.o{
+    display: flex;
+justify-content: space-between;
+height: 300px;
 
 }
 .copyright {
-    display: block;
+    display: flex;
     align-self: flex-end;
+    margin-right: 0;
+
 }
