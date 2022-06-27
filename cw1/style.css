@@ -1,0 +1,10 @@
+
+*{
+    border:2px dashed red
+}
+
+/* align-self: flex-end; */
+body {
+    display: block;
+    margin: 8px;
+}
