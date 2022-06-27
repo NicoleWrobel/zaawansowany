@@ -1,10 +1,15 @@
 
 *{
     border:2px dashed red
+    
 }
 
-/* align-self: flex-end; */
-body {
-    display: block;
+main {
+    display: inline-block ;
     margin: 8px;
+
+}
+.copyright {
+    display: block;
+    align-self: flex-end;
 }
