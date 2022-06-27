@@ -1,2 +1,2 @@
-#coś
+#kurs frontend - JS
 #coś2 
