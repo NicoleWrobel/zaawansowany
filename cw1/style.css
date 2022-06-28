@@ -29,7 +29,7 @@ footer{
 .leftArr,
 .rightArr{
     cursor: pointer; /*kursor jest klikalny na szczałce*/
-    padding: 1rem;
-    border-radius: 50%;
+    padding: 0.5rem;
+    border-radius: 100%;
     background-color: white;
 }
