@@ -1,35 +1,47 @@
-body{
-    background-color: antiquewhite;
-}
-
-
-h1{
+*{background-color: antiquewhite;}
+.main2 {
     display: flex;
-    justify-content: space-around;
-    background-color: white;
-
-}
-
-main {
-    /* pozwól wyświetlić elementowi na pełną szerokość */
-    flex: 1; 
-    display: flex; 
     justify-content: space-between;
-    height: 300px;
     align-items: center;
-
+    height: 300px;
 }
 
-footer{
+footer {
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: right; */
     margin-top: 4rem;
     text-align: right;
-   
 }
 
-.leftArr,
-.rightArr{
-    cursor: pointer; /*kursor jest klikalny na szczałce*/
-    padding: 0.5rem;
-    border-radius: 100%;
+.rightArr, .lefftArr {
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;  */
+     padding: 1rem;  /*    dobre */
     background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.content {
+    /* width: 300px;
+    height: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+.rightArr:hover, .lefftArr:hover {
+    color: red;
+
+}
+img:hover {
+    border: 2px solid black;
+    cursor: pointer;
 }
