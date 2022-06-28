@@ -1,25 +1,34 @@
-
-*{
-    
-    border:2px dashed red;
-    
-    
+body{
+    background-color: antiquewhite;
 }
+
 
 h1{
     display: flex;
     justify-content: space-around;
+    background-color: white;
 
 }
+
 main {
+    /* pozwól wyświetlić elementowi na pełną szerokość */
+    flex: 1; 
     display: flex; 
     justify-content: space-between;
     height: 300px;
-    align-items: center
+    align-items: center;
+
 }
 
 footer{
-    display: flex;
-    justify-content: flex-end
+    margin-top: 4rem;
+    text-align: right;
    
+}
+
+.leftArr,
+.rightArr{
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: white;
 }
