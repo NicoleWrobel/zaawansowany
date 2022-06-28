@@ -28,25 +28,21 @@ const data = [
 
 const left = document.querySelector('.lefftArr')
 left.onclick = function(){
-    console.log(slideNr)
     if (slideNr > 0)
 {
 slideNr = slideNr-1;
 }
 else slideNr = 2;
 changeHTMLinfo(slideNr);
-console.log(slideNr)
 }
 
 
 const right = document.querySelector('.rightArr')
 right.onclick = function(){
-    console.log(slideNr)  
 if (slideNr < 2){
     slideNr = slideNr+1;
 }
 else slideNr = 0;
 changeHTMLinfo(slideNr);
-console.log(slideNr)
 }
 
