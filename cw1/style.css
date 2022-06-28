@@ -12,7 +12,7 @@ h1{
 
 }
 main {
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     height: 300px;
     align-items: center
